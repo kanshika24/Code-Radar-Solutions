@@ -6,12 +6,15 @@ void main() {
         char lowerCh = tolower(ch);
         if (lowerCh == 'a' || lowerCh == 'e' || lowerCh == 'i' || lowerCh == 'o' || lowerCh == 'u') {
             printf("Vowel", ch);
-        } else {
+        } 
+        else {
             printf("Consonant", ch);
         }
-    } else if (isdigit(ch)) {
+    } 
+    else if (isdigit(ch)) {
         printf("Digit", ch);
-    } else {
+    } 
+    else {
         printf("Special Character", ch);
     }
 }
