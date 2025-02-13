@@ -12,5 +12,5 @@ void main()
         case '-': printf("Subtraction=%d",a-b);break;
         case '*': printf("Multiplication=%d",a*b);break;
         case '/': printf("Division=%d",a/b);break;
-        default: printf("\n No Operation");
+        default: printf("No");
     }
