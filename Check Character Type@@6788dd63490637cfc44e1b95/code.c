@@ -1,20 +1,18 @@
 #include <stdio.h>
-
 int main() {
     char ch;
-    printf("Enter a character: ");
     scanf("%c", &ch);
     if (isalpha(ch)) {
         char lowerCh = tolower(ch);
         if (lowerCh == 'a' || lowerCh == 'e' || lowerCh == 'i' || lowerCh == 'o' || lowerCh == 'u') {
-            printf("Vowel\n", ch);
+            printf("Vowel", ch);
         } else {
-            printf("Consonant.\n", ch);
+            printf("Consonant", ch);
         }
     } else if (isdigit(ch)) {
-        printf("Digit.\n", ch);
+        printf("Digit", ch);
     } else {
-        printf("Special Character.\n", ch);
+        printf("Special Character", ch);
     }
 
     return 0;
