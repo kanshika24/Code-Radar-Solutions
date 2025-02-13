@@ -1,16 +1,30 @@
- #include<stdio.h>
-void main()
-{
-    int a,b;
-    char options;
-    options=+,-,*,/;
-    scanf("%d%d",&a,&b);
-    scanf("%c",&options);
-    switch(options)
-    {
-        case '+': printf("Addition=%d",a+b);break;
-        case '-': printf("Subtraction=%d",a-b);break;
-        case '*': printf("Multiplication=%d",a*b);break;
-        case '/': printf("Division=%d",a/b);break;
-        default: printf("No");
+#include <stdio.h>
+void main() {
+    int a, b;
+    char c;
+
+    scanf("%d %d %c", &a, &b, &c);  
+
+    switch (c) {
+        case '+':
+            printf("%d\n", a + b);
+            break;
+        case '-':
+            printf("%d\n", a - b);
+            break;
+        case '*':
+            printf("%d\n", a * b);
+            break;
+        case '/':
+            if (b != 0)
+                printf("%d\n", a / b);  
+            else
+                printf("error");
+            break;
+        default:
+            printf("Error: Invalid operator\n");  
+            break;
     }
+
+    return 0;
+}
