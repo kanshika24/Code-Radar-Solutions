@@ -10,6 +10,6 @@ void main()
         printf("First");
     }
     else{
-        printf("second");
+        printf("Second");
     }
 }
