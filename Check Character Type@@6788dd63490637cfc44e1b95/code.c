@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void main() {
     char ch;
     scanf("%c", &ch);
     if (isalpha(ch)) {
@@ -14,5 +14,4 @@ int main() {
     } else {
         printf("Special Character", ch);
     }
-
-    return 0;
+}
