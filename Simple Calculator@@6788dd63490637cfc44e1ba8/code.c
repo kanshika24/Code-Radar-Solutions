@@ -3,6 +3,7 @@ void main()
 {
     int a,b;
     char options;
+    options=+,-,*,/;
     scanf("%d%d",&a,&b);
     scanf("%c",&options);
     switch(options)
