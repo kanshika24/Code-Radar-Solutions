@@ -24,4 +24,4 @@ void main()
     else{
         printf("Sunday");
     }
-      
+}    
