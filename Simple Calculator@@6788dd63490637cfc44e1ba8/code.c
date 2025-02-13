@@ -1,10 +1,9 @@
 #include <stdio.h>
-void main() {
+void main() 
+{
     int a, b;
     char c;
-
     scanf("%d %d %c", &a, &b, &c);  
-
     switch (c) {
         case '+':
             printf("%d\n", a + b);
@@ -25,6 +24,4 @@ void main() {
             printf("Error: Invalid operator\n");  
             break;
     }
-
-    return 0;
 }
