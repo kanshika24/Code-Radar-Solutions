@@ -10,7 +10,7 @@ void main(){
             printf("*");
         }
     }
-    for(i=n;i<=n;i--){
+    for(i=n;i>=n;i--){
         for(c=1;c<=n-i;c++){
             printf(" ");
         }
