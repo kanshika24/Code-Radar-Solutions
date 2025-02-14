@@ -4,10 +4,10 @@ void main(){
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(c=1;c<=n-i;c++){
-            printf("");
+            printf(" ");
         }
         for(k=1;k<=2*n-i;k++){
-            printf("%d ", k);
+            printf("%d ", c);
         }
         printf("\n");
     }
