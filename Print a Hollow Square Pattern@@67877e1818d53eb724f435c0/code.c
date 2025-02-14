@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main(){
-    int n,i,c;
+    int n,i,j;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        for(c=1;c<=i;c++){
-            if(c==1||c==n||i==1||i==n){
+        for(j=1;j<=n;c++){
+            if(j==1||j==n||i==1||i==n){
                 printf("*");
             }
             else{
