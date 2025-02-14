@@ -9,5 +9,6 @@ void main(){
         for(k=1;k<=2*n-i;k++){
             printf("%d ", k);
         }
+        printf("\n");
     }
 }
