@@ -13,7 +13,7 @@ void main(){
     }
     for(i=n-1;i>=1;i--){
         for(c=1;c<=n;c++){
-            printf( "");
+            printf(" ");
         }
         for(k=1;k<=2*i-1;k++){
             printf("*");
