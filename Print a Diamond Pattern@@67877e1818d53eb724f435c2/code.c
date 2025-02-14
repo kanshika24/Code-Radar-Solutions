@@ -10,12 +10,13 @@ void main(){
             printf("*");
         }
     }
-    for(i=n;i<=n;i--){
-        for(c=1;c<=i;c++){
+    for(i=n-i;i>=1;i--){
+        for(c=1;c<=n;c++){
             printf(" ");
         }
         for(k=1;k<=2*i-1;k++){
             printf("*");
         }
+        printf("\n");
     }
 }
