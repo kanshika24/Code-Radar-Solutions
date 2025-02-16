@@ -3,6 +3,6 @@ void amin(){
     int num1,num2,result;
     scanf(%d %d,&num1,&num2);
     result= num1 | num2;
-    printf("%d",result);
+    printf("The result of %d | %d is: %d\n",num1,num2,result);
 
 }
